@@ -1,0 +1,111 @@
+The issue framed politically.
+
+The future will see employment, financial security and longer-term career options only for those with the capacity to intellectually adapt to rapidly evolving technogolical standards.  This is not a question of mere skills, because the skills set are bound to morph at a continuously accellarating rate and in the most unpredictable directions.  The only constant will be pure intellectual facility to absorb, adopt and exploit new developments.  In short, the the employable person of the immediate future, and certainly of the next generation, will simply have to have a far greater capacity to learn and master new idea, of ever-greater depth, subtlety and complexity.
+
+Is this increased capcity possible in the same way as, for example, the far improved physical health and age longevity clearly are. No one argues that the radically imporoved standards of infacnt and child care, general diet, medical care and control over infectious diseases, and a genral cultural stress on physcial exercise and personal appearacne have resulted in a curretn world population much physcially stronger.  This is simple biology.  The human organzism is being served with better nutiritrion, support against disease, etc.  And the impact of improved nutirional, environmental and medical conditions on infacns and children are obviously the largest factor, as this is where the greaterst impact on future health (for better or worse) is felt.
+
+There will initially or instinctively be a distinction
+
+
+biology in the classic sense of the young brain's adpatability
+
+But there is also bioligy in speech and reading -- that learning to speak and to read and the young age when this first becomes possible divided human beings from their animal ancestry because of communication, avbstraction, and therefore thought.  Language is esstential to thought, and thought is impossible to imagine with language as we think in words, at last past some initial andmyterious intuitions.  Imagine if a child were taught to read -- because it is frankly impossible to preent it from learning to speak -- at age 12 instead of age 5.  He or she would be intuallualy handicapped in the most severe way, even if the only reading he or she had  een deprived of was "See Spot Run".  Reading is essential to thinking, and particualtly to abstract thinking (severed from from seeing or other dirct sensory expereience.)
+
+
+I'm opening up two bioligical fronts that are attempting to parallel, the enormous physcial imporment in the human race through biolgical priniciales to a conscious effort to improve intellectual "size, strength, capacity" through bioligy, focusing on the critical youth.  I alrady had a model of learning a diffuclt foreing language, learning to play baseball, learning to play the violin -- and stressing that what the yong child lacks in phsical and mental immaturity is compensatied, indeded, more than compensated, by apataptility, supplness, absence of self-criticism and similar posionous emotional barriers (like "self-image" that particularly self-selects girls and even many boys from intellectual pursiuts that would so greatly impact their personal success and their value to others).
+
+That past of biology -- the maturing brain, and the whle idea of stem cells which is a question of differentiaton, the idea of leaning languages and other poufnd intelletucal achievements being easier rather than harder at a oung age -- this was the easy and obvious part.  What may be as strong, but needs clarification is something that should be obvous but is not as evident to my audience because they don't see it.  ANd that's that if one didn't learn to read, even in their native lanugae commening at ayoung age, their intellectual development would be seriously retarded because reading and thinking are so closely allied.  The idea is connecte to the central premise, comletely miunderstood by non tech people -- that you are learn to "code" rather than learning to read code.  Everyone, even the most prolic writers (and probably especially the most prolific writers) read much much more than they write.  Indeed they learn to write entirely by reading.  Reading is much more important than writing.  As it happens, the languae of technolgy is code, and to pretend to undrstand tehcnoligy without code would be like pretending to understand physics from mere written explanations rather than from the mathematical language in which it is developed, defined and expressed.  No word-description of a piece of music can be compared with its reflection in musical notation. Just as mathematical and musical "language" are the direct refelction and communication of physics and music, code is the manifestation of tehcnology, and if you can't read code, you simply are not dealing with the rality of technoligy.  I stress this because its not a question of everyone becomming professional software developers.  But it IS a question of everyone who hopes to survive in the future economies of being
+
+----------------------------------------------
+
+Defining the problem as one of intellectual power in a world in which intellectual power and learning facility will be the overwhelming determinant of employability and economic sucess or survival.  This is connected to the idea that technoligical advancements are intelluctual advancments.
+
+That intellectual stretgh and facility is achievable through an emphasis on younger kids, and that the reason is biological.
+
+But where I am still missin a point is the nature of the problem.  Right now the world of web deveopent is goin through a revolution.  The revolution is what I see in angualr.  The power to create web applications is comoning now from faster processors, or more memory, but from new standards and innovations in software develoment that are wholly intellectual.  Ideas that are very powerful, very chanllenging, openng doors to much greater creative possibilities.  Ideas about what can be done with networked applications, how they could be designed and implemented.  I consider these to be intellectual technoligies.  For example, the database is not just getting beiger and faster like everything esles, the engire concep of what a database is bein revolutioinized by the idea of  json tree and of using tcp insetead of http, and eliminating the server.
+
+Angular with metadata, modules, lazy-loading, routing, DI, rxjs streams (especially as a way of unifying async).
+
+What is async.  Async is when funcgionality is event driven.  Meaning that something happen because an event occuts that pushes it handler on to the event loop.  This makes for very confusing convergence of ideas.
+1. ui events like keyboard and mourse or touch events that trigger handlers.
+2. timers whose expirations are events that trigger handlers
+3. functions like io that intiated something that takes some uncertain time to achieve, but which must be followed with something upon success.  This is wha async means in the modern sense as the basis of node for example or the basis of XHR.  You tirgger some io and there must be some followup, but the follw cannot occur until the io is completed so this is achieve by causing the the completed process to emit an event which event pushes the handler (the next step) only the event loop.
+
+1 is called aync because its a event that puts a handler on the event loop, but there is nothing conceptually async about it in he idea that some process has begun and is awaiting completion.  2 is funny because you have delieberate created a delay, it's not inherent inthe process. but its also nonblocking, meaning that all the code is sequence will run inthe current call stack, at least I think so.  The fianl idea is where the real issues arise, you haven merely created a delay, the delay is inherent in whatever you are trying to achieve, and you are trying to line up a seqeunce of actions as efficeintly as possible wihout resort to threads.  A thread is the divison of a process that enable you you blocka hread without blocking others, but this is much more complex in erms of server pogramming than exploting he JS event loop with a sinle process.  I am sressing this because this is enirely an intellectual advancement that has enormously impacted.  It made JSS not only possible, but a superior choice for a server, and the conseqeunce was NPM, the abiliy for wev develpmen o be unidfied around a single lanugage which has made the concept of full stack extremely obtainable. with JS you can write the server and the client and that means that today, as opposed to only very few years ago, the qulified web development has a global perspective, which which the realloion of service from server to client could never have happened.
+
+Back to business,but this was not a distrction.  Ths idea is that power is being achieved through ideas of greater sophsitication and subtlty, -- intellectual technolgy -- in short nothing is changing except a more sposhiticated may of thinking that makes it more possible to exploit what always available.  The event loop was always there. The advancements are inellectual, the intellectual demands are inherent in a world in which building a major webserivce is more important than building a 80 sroy office tower, a electirc power plant, or even a metropotan transit system. The levels of complexity, the qualities of architectural design, eficienies of devlepment and anticipate (or unanticipated growth), the enormous economic and social significance.
+
+
+Those who will survive the curent revolution will and must have much greater intellectual facility than was typcially acceptable in the past, and this proces is only accelerating.  I'm trying to move toward a combination of intellectual acutiy,power  and facility is a genreal sense with a particular context of internet technology.
+
+So that I'm pushing toward what my solution is by pushing toward the problem.  There is a goal and here is a context, and thse are blended.  We are seeking the kind of intelligence that suports or is alligned with technology.
+
+What am I offering is the biggest hole.  I can begin to distinguh betwen what I now I'm offering and what I don't know. and WHo it can be offerred to and in what context.
+
+Start with what I do know.  Using hands on tools.
+
+1.  The most important is plunker demos of the kind I'm already doing.  These get right to the most important point because they are not about pofessional software develoment itself.
+
+2. Loopback and its explorer, to create a database and explore an API.
+
+Both of these involve the most important experience for intellectual growth possible, and one that never ends.  ANd gets me to an important point. WHich is that there is an asusmption that you learn the rules from some sort of source, l=book online documentation, and then you apply it.  But the real insight is that today, learning technology is much more similar to pure scientific exploration, whether you want to or not. You explore, form hypothesese, test your hypothesis on tools and systems created by people just as you would perform experiencet onthe physcial universe.  Part of this is that it often siply more efieent, part of it is that it a huge aspect of the intelletual ethods of software development, but most of it is due to the fact that levels of complextiy are so great, and ideas so subtle, tht it makes more sense to treat your tools as a God-given natural phenomenon that you will explicated by experimntation and exploration.
+
+In this reality, the young child has an incredible advantage.  A willingness to persist without a sense of defeat or stupdity.  A pure sense of play.
+
+Loopback is incredible, because I can make up a database, and then it can be queied with the explorer, and you not only learn about the database, but you lean about the server api, the RESTFUL API and the client api.
+
+It's so far above a child's understanding that there is no pretence of them fully understanding. Its an environment for them to play is that is comletely realistic because it is in fact the real world tools, and they can't mess it up. This is jsut like Loopback.  There is an insight here. You are giveing kids the real thing, a real violin or piano or baseball, and letting them interat with it, letting it teach them, if teach means learning to ask better and better question.  They start with what is this, or what the fuck.  And after a while they ask, why is this file the same in these two demos but this other file is different bectween the two.  Or I deleted this line of code and nothing changed, but in this other case just moved.
+
+You have to comletely change the standard of success to face reality.  Success is transforming minds by stretching them out against the real world.  No one teaching a kid Chinese or Russian would restict them to a fake language, anymore than kids learn to speak their native language by anything other than exposeure to the real world.  It goes without saying that many words will denote ideas that a child cannot grasp, but the mere exposure ot words they don't understand, and the desire to make sense of them to the best of thier ability according to context or whatever is desirable.
+
+Int he caseof loopback, a technoligst will understand that they are being expose to a server-side database, accessed through HTTP requests in RESTful form, ultimately generated by client-side JavaScript methods. The child need not understand any of these retstaint, inherentive restictive ideas about what "they are learning."  They will play and
+
+I have created the progressive demos, and they can get accounts for c9 and use them first for loopback, then for tons of other stuff. The point is no one is pushing them to create anything, and wha they are doing is expanding their minds through pure exploration.  So what is the guidance.  The guidance is asking questions.
+
+The importnt thing to understand is that the ideas involved are huge. It can take months for intelligent adults to understand -- years often for real understanding -- so the idea is not to understand in any conventional way, but to get it in their blood. To get them used to playing and seeing what happens, for form vauge, often inarticulate expectations that can be tested or meshed with other, vague.
+
+Get kids working with each other, as long as there isn't dominance, can kids sharing the experience work, it can if they are constantly shifted and if its not presented as an achievement thing, but rather as a questioning thing. Have each kid play around separately. Don't tell them how they are supposed to understand, what they are supposed to think.
+
+What can supporting adults do.  With Plunker, you don't need to do anything.  What are we trying to achieve pedagogically. We are trying to cultivate high levels of explorative and creative intelligence, along with a persistence derived not from grunt head-bumping commitment but from a sense that one is always learning something of value in pursuit of what might otherwise be consdiered frustration.  These kids have the greatest luxury possible.  There are no expectation, no standards, no time-tables, no "achievement" -- only the cultivation of an exploratie and creative intelligence that has always been, and will always be, the path to the greatest rewards for both the self and for humantity.
+
+Kids working cooperatively and independently.
+
+Adult supervision.  First of all, there is no need whatever for the adult assister or supervior to have any knowledge other than what is necessary to get whatever mininal system demands in operation.  The adult should be learning along side the kids, using the opporutnin to compare the adult mind and emotions with the child's.  The adult will almost certainly discover major disadvantages to the kids.  His or her fear of looing stupid, freezing up before code, the desire the read code as though it were English lanuage and frustration to realize that this is impossible. The extreme unfamiliarty of really learning from young children's insights -- not learning how to teach but learning the acutal content.  The main purpose of the adult is to ask questions. Always, always always ask questions.  To understand that, even though they are staring at what appears to be the Rosetta Stone, that even the Roseetta Stone revealed itself to the creative, expliratory intelligence of a man who did not even pretend to be a scholoar or an expert but who was simply inerested enough to follow up all the logical leads until he stumbled accross the critical insight.
+
+The hardest part of this is the pedgagic issue of how creative and exploratory intelligence is cultivated from the youngest ages, and is reinforced by a sense of achievement resulting from culumative insights, errors, blunders, lucky breaks. The matieral is deliberately way over their heads, as indeed it is over the heads of even the large majority of presnt-day develepors except that they are unders no pressure.
+
+It is precisely because its so adult that children are free of all expectation of success.  They can let idea form.  The only questions that openly present themselves in each case are two:
+
+This code -- which is the cooperation of all of the separate files -- produces the resulting user interface on the right. In some cases the user interface is just static, and doesn't response to user interaction.  In other cases, it changes in reposnd to user interaction -- clicking on buttons or text.  The ultimate question, whose complete answer is irrelevant for these kid, is why this combination of text files (the code) produces the application displayed ont he right.
+
+How do the different demos, which generally change only incrementally.
+
+You can't just put stuff in front of kids and say, think this through.  The whole process is one of questions.
+
+1.  The names of the files.  path, file names, extensions.
+
+2.  In which of the files to we actually find the words written on the screen.
+
+3. which of the files do we find color names corresponding to colors on the screen.
+
+4. what are the extensions.  What do we see thats in common between the files that have the same exgensions - css and ts
+
+Here you are teaching to observe and set up the sense the the files are interdependent.  What are the overlaps, thing that are in two different files.
+
+We are going to start with EXACTLY what Chapillion did with the Rosetta Stone. He went over it until he had some insight about how the different "files" connected to each other.
+
+SO if the idea is to train teachers, its not to trin teachers to be developers to facilitate mind-open exploration through questions, to cultivate insights.  YOu are stasrting staring as a wall of ice and all you know is that the files on the left, taken together, produce the result on the right. You will be given some hints.  That some of the ffiles are boilerplate.  Abosultely necessary for the program to work, but not differening much it at all from program to program, and thereofre soemthing we could poentially put on the backburner and jus accept on aith while we focus on the files that seem to be really unique tothe patiuclar program.
+
+The idea of training teachers in a methodology that they learn themselves using the guidance I provide but which they develop as sort of disciples.  There are only to suggestions that obviously arise and allow the teachers to be teachers, which is not to presume to impose any method at all or style except for the obvious -- which is that their role is to generate questions when the kids themselves do not.
+
+It goes without saying that this is not for kids who need to be pushed.  It is for kids who are anxious and excited to be exposed to sucha daring and ambitious educational venture.  It's for bright,interested kids who want to get involved.
+
+The key to the entire thing is generating and articulating questions -- questions that can be explored -- not necessarily answered because the whle thing is to keep you humble.  If you think you understand this stuff you are either a genius or a moron.
+
+So I am offering something that with some very basic guidance, and availability for consulting, can be offerred to schools for themselves to use.  I can offer follow up and create a legion of teachers.
+
+
+
+
+
+
