@@ -28,11 +28,18 @@ export class RouteBComponent implements OnInit {
     let id = +this.route.snapshot.params['id'];
     
     var refer = firebase.database().ref('members').orderByChild('id').equalTo(id);
-    refer.on('value', (snapshot) => {
-          let obj =snapshot.val();
-          let key = Object.keys(obj)[0];;
-          this.selected = this.membServ.selected = obj[key];
-    });
+
+    refer.on("child_added", (snapshot) => 
+          {this.selected = this.membServ.selected = snapshot.val();}
+    );    
+    
+// ANOTHER APPROACH -- ALSO WORKS    
+//    refer.on('value', (snapshot) => {
+//          let obj =snapshot.val();
+//          let key = Object.keys(obj)[0];;
+//          this.selected = this.membServ.selected = obj[key];
+//    });
+    
   }
 
 }
