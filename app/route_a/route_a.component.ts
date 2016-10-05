@@ -28,11 +28,16 @@ export class RouteAComponent implements OnInit   {
 
   
   ngOnInit() {
-        
-    firebase.database().ref('members').on('value', (snapshot) => {
-      let objs =snapshot.val();
-      for (var prop in objs) {this.members.push(objs[prop]);};
-    });
+    
+    firebase.database().ref('members').on("child_added", (snapshot) => { 
+        this.members.push(snapshot.val()); }
+    );
+    
+//THIS WILL ALSO WORK    
+//    firebase.database().ref('members').on('value', (snapshot) => {
+//      let objs =snapshot.val();
+//      for (var prop in objs) {this.members.push(objs[prop]);};
+//    });
     
   }
   
